@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GTBの課題</title>
+  <style>
+    li{
+      margin-bottom: 10px;
+    }
+    .main-container{
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+
+      
+    }
+    .gmo-title{
+      margin: auto;
+      font-size: 35px;
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
+    }
+    .gmo-image{
+      margin: auto;
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+    }
+    .gmo-sentence{
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+    }
+    .gmo-list{
+      margin: auto;
+      grid-column: 2 / 3;
+      grid-row: 4 / 5;
+    }
+    .gmo-link{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      grid-column: 2 / 3;
+      grid-row: 5 / 6;
+    }
+
+  </style>
+</head>
+<body>
+　<article>
+    <section class="main-container">
+      <h1 class="gmo-title">GMOインターネットグループ</h1>
+      <img src="https://www.gmo.jp/assets/images/common/logo.png" alt="GMOインターネット" class="gmo-image">
+      <p class="gmo-sentence">
+        GMOインターネットグループは、1995年にインターネット事業を開始して以来、
+        「インターネットの<strong>便利さ</strong>、<strong>楽しさ</strong>、<strong>可能性</strong>を、一人でも多くのかたに届けたい」という強い思いのもと、
+        インターネットに関連するさまざまなサービスをお届けしています。
+      </p>
+      <h2 class="gmo-list">上場企業一覧</h2>
+      <ui class="gmo-link">
+        <li><a href="https://www.gmo.jp/">GMOインターネット</a></li>
+        <li><a href="https://www.gmo.jp/">GMOペイメントゲートウェイ</a></li>
+        <li><a href="https://www.gmo.jp/">GMOクラウド</a></li>
+        <li><a href="https://www.gmo.jp/">GMOアドパートナーズ</a></li>
+        <li><a href="https://www.gmo.jp/">GMOペパボ</a></li>
+        <li><a href="https://www.gmo.jp/">GMOフィナンシャルHD</a></li>
+        <li><a href="https://www.gmo.jp/">GMOリサーチ</a></li>
+        <li><a href="https://www.gmo.jp/">GMOテック</a></li>
+        <li><a href="https://www.gmo.jp/">GMOメディア</a></li>
+      </ui>
+    </section>
+  </article>
+</body>
+</html>
+
